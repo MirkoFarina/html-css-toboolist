@@ -10,6 +10,36 @@ body{
   background-color: #f6f8f9;
 }
 
+.rectangle{
+  border-radius: 9px;
+  padding: 5px 5px;
+  font-size: 0.8rem;
+  color: white;
+}
+/* background-color */
+.back-blue{
+  background-color: #45abea;
+}
+
+.back-violet{
+  background-color: #9c72e4;
+}
+
+.back-green{
+  background-color: #64c0a9;
+}
+.back-orange{
+  background-color: #f29e33;
+}
+
+.back-pink{
+  background-color: #d863a1;
+}
+
+.back-lightgreen{
+  background-color: #b0c926;
+}
+/* /background-color */
 
 /* header */
 header{
@@ -33,6 +63,8 @@ header img{
   width: 70%;
   max-width: 1200px;
   margin: 60px auto;
+  background-color: white;
+  border-radius: 3px;
 }
 
 /* nav */
@@ -59,5 +91,48 @@ nav button{
 }
 /* /nav */
 
+section{
+  font-size: 1.2rem;
+}
+
+section .raw{
+  padding: 10px 50px;
+}
+
+h2::before{
+  content: '\25be';
+}
+
+section .checkmark::before{
+  content: '\2713';
+}
+
+section .ballot::before{
+  content: '\2718';
+}
+
+section .checkmark{
+  border-radius: 50%;
+  border: 1px solid #6ec5b0;
+  padding: 3px 3px;
+  font-size: 0.7rem;
+  color: #6ec5b0;
+  font-weight: 800;
+  margin-right: 3px;
+}
+
+section .ballot{
+  border-radius: 50%;
+  border: 1px solid red;
+  padding: 3px 3px;
+  font-size: 0.7rem;
+  color: red;
+  font-weight: 800;
+  margin-right: 3px;
+}
+
+section .to-do{
+  padding: 10px 0;
+}
 
 /* /main */
